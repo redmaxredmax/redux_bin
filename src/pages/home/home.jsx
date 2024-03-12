@@ -12,7 +12,6 @@ export const Home = () => {
     }, [])
     return (
         <div className="container mx-auto py-[50px]">
-            <h1>salom</h1>
             <Link to={"/bin"}>Bin</Link>
             <ul className="grid grid-cols-4 gap-4">
                 {data.map((item) =>
